@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class TwoSumII {
     public static int[] twoSum(int[] numbers, int target) {
         int st = 0, end = numbers.length-1;
@@ -16,6 +17,6 @@ public class TwoSumII {
     }
     public static void main(String[] args) {
         int numbers[] = {2,7,11,15};    
-        System.out.println(twoSum(numbers, 9));
+        System.out.println(Arrays.toString(twoSum(numbers, 9)));
     }    
 }
