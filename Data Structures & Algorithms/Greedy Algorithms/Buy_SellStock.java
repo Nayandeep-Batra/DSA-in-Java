@@ -1,4 +1,3 @@
-import java.util.*;
 public class Buy_SellStock {
     public static int buySell(int prices[]) {
         int n = prices.length;
